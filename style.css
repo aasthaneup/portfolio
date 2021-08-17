@@ -70,15 +70,22 @@ body{
     width: 250px;
 }
 .condetail{
-    min-width: 600px;
+    min-width: 400px;
+    margin: 0px 50px;
+}
+.condetail p{
+    margin-bottom: 0px;
 }
 .conpic img{
     width: 250px;
     height: 200px;
-    margin-right: ;
+    margin-left: 50px;
+}
+.conpiccard{
+    padding-right: 70px;
 }
 .conpiccard img{
     height: 200px;
     width: 180px;
-    margin-right: 70px;
+    margin-left: 50px;
 }
