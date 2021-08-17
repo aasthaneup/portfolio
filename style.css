@@ -47,7 +47,7 @@ body{
     margin-left: 40px;
     margin-top: 20px;
     height: 150px;
-    width: 150px
+    width: 150px;
 }
 .info2{
     width:60%;
@@ -58,4 +58,24 @@ body{
     text-align:end;
     margin-top: 30px;
     align-items: flex-end;
+}
+.contentone, .contenttwo, .contentthree{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.conpic .conpiccard{
+    width: 25%;
+}
+.condetail{
+    width: auto;
+}
+.conpic img{
+    width: 250px;
+    height: 200px;
+}
+.conpiccard img{
+    height: 200px;
+    width: 180px;
 }
