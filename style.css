@@ -7,8 +7,8 @@ body{
     color: white;
     text-decoration: none;
 }
-.navbar a:hover{
-    color: rgb(0, 166, 255);
+.navbar a:hover, .navbar p:hover{
+    color: red;
 }
 .navleft{
     width: 40%;
@@ -16,9 +16,12 @@ body{
     justify-content: space-around;
 }
 .active{
-    color: rgb(0, 166, 255) !important;
+    color: red !important;
 }
-.navright a{
+.socialicons{
+    /* display: none; */
+}
+.socialicons a{
     color: white;
     font-size: 25px;
     margin: 0px 5px;
@@ -88,4 +91,10 @@ body{
     height: 200px;
     width: 180px;
     margin-left: 50px;
+}
+form{
+    width: 500px;
+}
+.navright p{
+    padding: 5px 30px 5px 100px;
 }
