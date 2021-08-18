@@ -98,3 +98,6 @@ body{
 form{
     width: 500px;
 }
+.hid{
+    display: none;
+}

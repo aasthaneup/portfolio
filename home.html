@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
+            $('.hid').fadeIn(800);
             $('.navright a').hide();
             $('.navright p').hover(function(){
                 $(this).toggle();
@@ -44,7 +45,7 @@
             <div class="pic">
                 <img src="img/me.jpeg" alt="Profile Picture">
             </div>
-            <div class="info">
+            <div class="info hid">
                 <h4>Hi, I am Jane!</h4>
                 <h1>Software Engineer</h1>
                 <h5 class="mt-3">Front-end, Back-end, <span class="text-bold">Full-stack 👩‍💻</span></h5>

@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
+            $('.hid').fadeIn(800);
             $('.navright a').hide();
             $('.navright p').hover(function(){
                 $(this).toggle();
@@ -45,7 +46,7 @@
                 <div class="conpiccard">
                     <img src="img/cards.jpg" alt="Picture of Cards">
                 </div>
-                <div class="condetail mt-2">
+                <div class="condetail mt-2 hid">
                     <h3>Black Jack</h3>
                     <p class="text-danger">A game of Black Jack developed with React, utilizing Axios and reach router libraries to make external API calls</p>
                     <p>Integrated Axios and Reach Router libraries and  “deckofcards” API to design and implement game play</p>
@@ -57,7 +58,7 @@
                 <div class="conpic">
                     <img src="img/book.jpg" alt="Picture of Books">
                 </div>
-                <div class="condetail">
+                <div class="condetail hid">
                     <h3>BuyBks</h3>
                     <p class="text-danger">Fully functioning eCommerce site for vintage books developed in python-Django</p>
                     <p>Created a responsive UI using HTML, CSS, jQuery and bootstrap.</p>
@@ -72,7 +73,7 @@
                 <div class="conpic">
                     <img src="img/tac.jpeg" alt="Picture of todo">
                 </div>
-                <div class="condetail">
+                <div class="condetail hid">
                     <h3>Táche</h3>
                     <p class="text-danger">A task management app inspired by Trello and Jira - Organize tasks and track progress</p>
                     <p>Created using Java Spring framework and MySQL as backend.</p>
@@ -81,9 +82,6 @@
                     <p>Implemented all CRUD capabilities to provide users with greater</p> abilities for enhanced user experience.</p>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            <small>&copy; 2021 BestPractices LLC.</small>
         </div>
     </div>
 </body>
