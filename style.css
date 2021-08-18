@@ -76,8 +76,8 @@ body{
     width: 250px;
 }
 .condetail{
-    min-width: 400px;
-    margin: 0px 50px;
+    width: 600px;
+    margin: 10px 50px;
 }
 .condetail p{
     margin-bottom: 0px;

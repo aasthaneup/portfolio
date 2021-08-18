@@ -1,88 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aastha Neupane | Software Engineer | Project</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.hid').fadeIn(800);
-            $('.navright a').hide();
-            $('.navright p').hover(function(){
-                $(this).toggle();
-                $('.navright a').toggle();
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aastha Neupane | Software Engineer | Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.hid').fadeIn(800);
+                $('.navright a').hide();
+                $('.navright p').hover(function(){
+                    $(this).toggle();
+                    $('.navright a').toggle();
+                });
             });
-        });
-    </script>
-</head>
-<body>
-    <div class="container-fluid text-white mt-4">
-        <div class="navbar">
-            <div class="navleft">
-                <a href="home.html">Home</a>
-                <a href="about.html">About</a>
-                <a class = "active" href="#">Project</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            <div class="navright">
-                <p>Social</p>
-                <div class="socialicons">
-                    <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.github.com"><i class="fa fa-github-square"></i></a>
-                    <a href="https://www.facebook.com"><i class="fa fa-facebook-square"></i></a>
-                    <a href="https://www.twitter.com"><i class="fa fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        </script>
+    </head>
+    <body>
+        <div class="container-fluid text-white mt-4">
+            <div class="navbar">
+                <div class="navleft">
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a class = "active" href="#">Project</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="navright">
+                    <p>Social</p>
+                    <div class="socialicons">
+                        <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="https://www.github.com"><i class="fa fa-github-square"></i></a>
+                        <a href="https://www.facebook.com"><i class="fa fa-facebook-square"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="contentproject mt-5">
-            <div class="contentone mt-3">
-                <div class="conpiccard">
-                    <img src="img/cards.jpg" alt="Picture of Cards">
+            <div class="contentproject mt-5">
+                <div class="contentone mt-3">
+                    <div class="conpiccard">
+                        <img src="img/cards.jpg" alt="Picture of Cards">
+                    </div>
+                    <div class="condetail mt-2 hid">
+                        <h3>Black Jack</h3>
+                        <p class="text-danger">A game of Black Jack developed with React, utilizing Axios and reach router libraries to make external API calls</p>
+                    </div>
                 </div>
-                <div class="condetail mt-2 hid">
-                    <h3>Black Jack</h3>
-                    <p class="text-danger">A game of Black Jack developed with React, utilizing Axios and reach router libraries to make external API calls</p>
-                    <p>Integrated Axios and Reach Router libraries and  “deckofcards” API to design and implement game play</p>
-                    <p>Built game logic with JavaScript and JSX in React app for a seamless gameplay experience</p>
-                    <p>Styled and engaging UI with CSS and bootstrap</p>
+                <div class="contenttwo">
+                    <div class="conpic">
+                        <img src="img/book.jpg" alt="Picture of Books">
+                    </div>
+                    <div class="condetail hid">
+                        <h3>BuyBks</h3>
+                        <p class="text-danger">Fully functioning eCommerce site for vintage books developed in python-Django framework utilizing external APIs</p>
+                    </div>
                 </div>
-            </div>
-            <div class="contenttwo">
-                <div class="conpic">
-                    <img src="img/book.jpg" alt="Picture of Books">
-                </div>
-                <div class="condetail hid">
-                    <h3>BuyBks</h3>
-                    <p class="text-danger">Fully functioning eCommerce site for vintage books developed in python-Django</p>
-                    <p>Created a responsive UI using HTML, CSS, jQuery and bootstrap.</p>
-                    <p>Integrated external API resources such as Google Books API and PayPal for seamless payment processing</p>
-                    <p>Built login and registration with password BCryption and validations, and integrated Google OAuth for enhanced security</p>
-                    <p>Utilized Django session to provide users a personalized experience</p>
-                    <p>Integrated all CRUD operations to give content control to users</p>
-
-                </div>
-            </div>
-            <div class="contentthree">
-                <div class="conpic">
-                    <img src="img/tac.jpeg" alt="Picture of todo">
-                </div>
-                <div class="condetail hid">
-                    <h3>Táche</h3>
-                    <p class="text-danger">A task management app inspired by Trello and Jira - Organize tasks and track progress</p>
-                    <p>Created using Java Spring framework and MySQL as backend.</p>
-                    <p>Integrated Google OAuth and Google Calendar API for intuitive scheduling options</p>
-                    <p>Integrated jQuery with HTML, CSS and Bootstrap to provide users features such as drag and drop</p>
-                    <p>Implemented all CRUD capabilities to provide users with greater</p> abilities for enhanced user experience.</p>
+                <div class="contentthree">
+                    <div class="conpic">
+                        <img src="img/tac.jpeg" alt="Picture of todo">
+                    </div>
+                    <div class="condetail hid">
+                        <h3>Táche</h3>
+                        <p class="text-danger">A task management app inspired by Trello and Jira - created using Java Spring framework integrated with external APIs</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
