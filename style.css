@@ -10,6 +10,9 @@ body{
 .navbar a:hover, .navbar p:hover{
     color: red;
 }
+.navright p{
+    padding: 5px 30px 5px 100px;
+}
 .navleft{
     width: 40%;
     display: flex;
@@ -19,7 +22,7 @@ body{
     color: red !important;
 }
 .socialicons{
-    /* display: none; */
+    margin-bottom: 13px;
 }
 .socialicons a{
     color: white;
@@ -94,7 +97,4 @@ body{
 }
 form{
     width: 500px;
-}
-.navright p{
-    padding: 5px 30px 5px 100px;
 }
