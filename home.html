@@ -18,13 +18,15 @@
                 $(this).toggle();
                 $('.navright a').toggle();
             });
-            $('.thumb').hover(function(){
-                $('.soc').addClass("text-danger");
-            },
-            function(){
-                $('.soc').removeClass("text-danger");
-                $('.soc').addClass("text-white");
-            })
+            $('.thumb').hover(
+                function(){
+                    $('.soc').addClass("text-danger");
+                },
+                function(){
+                    $('.soc').removeClass("text-danger");
+                    $('.soc').addClass("text-white");
+                }
+            )
         });
     </script>
 </head>
